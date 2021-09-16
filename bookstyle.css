@@ -1,0 +1,61 @@
+html {zoom: 130%;}
+
+body {
+  background-color: #121212;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size:16px;
+  line-height:2.5;
+  user-select:none
+}
+h4 {
+  font-family: Georgia, serif;
+  font-size:16px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+}
+html, body, div{
+  margin: 0;
+  padding: 0;
+}
+.cover {
+  position: relative;
+  max-width: 705px;
+  max-height:1125px;
+  margin: auto;
+}
+.page {
+  position: relative;
+  max-width: 705px;
+  height: 1125px;
+  margin: auto;
+  background-color: rgba(255,255,255,.16);
+}
+.content {
+  max-width: 535px;
+  max-height: 1035px;
+  margin: auto;
+  padding-top: 15px;
+  overflow-y: hidden;
+}
+.tab { 
+ margin-left: 40px; 
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+.cursive {
+  font-family: Brush Script MT, serif;
+  font-size:40px;
+  font-weight: 100;
+  letter-spacing: 2.5px;
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  width: 100%;
+}
